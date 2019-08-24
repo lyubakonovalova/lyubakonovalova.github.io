@@ -1,0 +1,14 @@
+- selector: slider_georgia
+  bullets: true
+  captions: true
+  images:
+    - src: /images/georgia1.jpg
+      title: Ananuri
+      alt: This is water reservation
+    - data-src: /images/georgia2.jpg
+      title: Ananuri
+    - data-src: /images/georgia3.jpg
+      title: Old military road
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
