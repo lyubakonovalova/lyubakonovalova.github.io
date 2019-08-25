@@ -91,6 +91,12 @@
 				border-top-width: 2px;
 				text-align: center;
 
+				> inline-tags {
+					text-align: right;
+					float: right;
+					font-style: italic;
+				}
+
 				> :last-child {
 					margin-bottom: 0;
 				}
