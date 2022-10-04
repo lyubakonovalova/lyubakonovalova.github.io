@@ -30,12 +30,12 @@
 				<div id="main">
 
             <header class="major">
-              <p>Мои заметки о путешествиях</p>
+              <p>Мои заметки о шитье</p>
             </header>			
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
-							{% unless post.tags contains "sewing" %}
+							{% if post.tags contains "sewing" %}
 								<article>
 									<header>
 										<span class="date">{{ post.date | date_to_string }}</span>
@@ -54,7 +54,7 @@
 										</span>
 									</inline-tags>
 								</article>
-							{% endunless %}
+							{% endif %}
 						{% endfor %}
 
 					</section>
